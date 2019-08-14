@@ -37,6 +37,7 @@ Input any differences here if needed
 :link: [Angular Testing](https://angular.io/guide/testing)<br />
 :link: [Angular Form Greatness](https://angular.io/guide/reactive-forms)<br />
 :link: [More Angular Forms](https://angular.io/guide/forms)<br />
+:link: [Angular Material](https://material.angular.io/)<br />
 ## Changes Made Not Included in Tutorial
 1. Adding getName() and setName(name) functions to the music object
 
