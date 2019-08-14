@@ -6,11 +6,31 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class MusicService {
+  public API = '//localhost:8080';
+  public MUSIC_API = this.API + '/musics';
 
   constructor(private http: HttpClient) {
   }
 
   getAll(): Observable<any> {
     return this.http.get('//localhost:8080/good-music');
+  }
+
+  get(id: string) {
+    return this.http.get(this.MUSIC_API + '/' + id);
+  }
+
+  save(music: any): Observable<any> {
+    let result: Observable<any>;
+    if (music.href) {
+      result = this.http.put(music.href, music);
+    } else {
+      result = this.http.post(this.MUSIC_API, music);
+    }
+    return result;
+  }
+
+  remove(href: string) {
+    return this.http.delete(href);
   }
 }
