@@ -43,7 +43,7 @@ export class MusicEditComponent implements OnInit, OnDestroy {
     this.router.navigate(['/music-list']);
   }
 
-  save(form:NgForm) {
+  save(form: NgForm) {
     this.musicService.save(form).subscribe(result => {
       this.gotoList();
     }, error => console.error(error));
