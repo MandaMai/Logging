@@ -2,20 +2,23 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MusicListComponent } from './music-list/music-list.component';
 import { MusicEditComponent } from './music-edit/music-edit.component';
+import { OktaAuthGuard } from '@okta/okta-angular';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/music-list', pathMatch: 'full' },
   {
     path: 'music-list',
-    component: MusicListComponent
+    component: MusicListComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'music-add',
-    component: MusicEditComponent
+    component: MusicEditComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'music-edit/:id',
-    component: MusicEditComponent
+    component: MusicEditComponent,
+    canActivate: [OktaAuthGuard]
   }
 ];
 

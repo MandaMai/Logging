@@ -81,3 +81,30 @@ git commit -m "basic note for what was changed"
 * Generate new service to project ```ng g s shared/[folderName]/[serviceName]```
 ### Other
 * [Github emojis](https://gist.github.com/rxaviers/7360908)
+
+## :clapper: Google Fonts Used
+@import url('https://fonts.googleapis.com/css?family=Roboto|Crimson+Text|);
+
+font-family: 'Roboto', serif;
+font-family: 'Amatic SC', cursive;
+
+Added via html
+* [Roboto](https://fonts.googleapis.com/css?family=Roboto:300,400,500)
+* [Material Icons](https://fonts.googleapis.com/icon?family=Material+Icons)
+Added via scss
+* [Crimson Text](https://fonts.google.com/specimen/Crimson+Text?selection.family=Crimson+Text) - Most 
+
+Site Content
+
+## :notebook: Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+
+## :book: Author
+
+* **Amanda Maifeld** - *Initial work* - [MandaMai](https://github.com/MandaMai)
+
+## :rainbow: License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
