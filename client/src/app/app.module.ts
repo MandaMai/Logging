@@ -8,11 +8,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { MusicListComponent } from './music-list/music-list.component';
 
 import { MatButtonModule, MatCardModule, MatInputModule, MatListModule, MatToolbarModule } from '@angular/material';
+import { MusicEditComponent } from './music-edit/music-edit.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MusicListComponent
+    MusicListComponent,
+    MusicEditComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +26,8 @@ import { MatButtonModule, MatCardModule, MatInputModule, MatListModule, MatToolb
     MatCardModule,
     MatInputModule,
     MatListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
