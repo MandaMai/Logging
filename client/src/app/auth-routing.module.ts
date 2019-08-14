@@ -34,7 +34,7 @@ const routes: Routes = [
     CommonModule,
     HttpClientModule,
     OktaAuthModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatCardModule,
     RouterModule.forRoot(routes)
   ],
