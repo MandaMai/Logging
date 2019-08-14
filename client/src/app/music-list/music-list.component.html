@@ -1,5 +1,6 @@
 <mat-card>
   <mat-card-title>Music List</mat-card-title>
+  <button mat-fab color="primary" [routerLink]="['/music-add']">Add</button>
   <mat-card-content>
     <mat-list>
       <mat-list-item *ngFor="let music of musics">
@@ -10,6 +11,4 @@
       </mat-list-item>
     </mat-list>
   </mat-card-content>
-
-  <button mat-fab color="primary" [routerLink]="['/music-add']">Add</button>
 </mat-card>
