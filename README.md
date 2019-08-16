@@ -82,7 +82,7 @@ git commit -m "basic note for what was changed"
 ### Other
 * [Github emojis](https://gist.github.com/rxaviers/7360908)
 
-## Opening on Your Machine for the First Time
+## Opening on Your Machine for the First Time (With Instructions If You Want to Make Changes)
 1. Create file to house project on machine
 1. Navigate to folder, open command, and run ```git clone URL```
 1. Navigate to server folder
@@ -93,6 +93,9 @@ git commit -m "basic note for what was changed"
 1. Run ```ng add @angular/material```
 1. Run ```ng add @oktadev/schematics --issuer=https://dev-529195.okta.com/oauth2/default --clientId=0oa147ll79FgBl9MZ357```
 1. Run ```ng serve -o```
+1. Within VS Code (or whatever code editor you are using) make sure to stash all changes made up to this point from these actions.  as these commands will edit some files that do not need to be edited.  Changes in the code files have already been made to make the application work.
+1. You are now free to make changes to the application.
+
 
 
 
