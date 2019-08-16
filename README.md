@@ -82,6 +82,20 @@ git commit -m "basic note for what was changed"
 ### Other
 * [Github emojis](https://gist.github.com/rxaviers/7360908)
 
+## Opening on Your Machine for the First Time
+1. Create file to house project on machine
+1. Navigate to folder, open command, and run ```git clone URL```
+1. Navigate to server folder
+1. Run ```npm install```
+1. Run ```.mvnw/ spring-boot:run```
+1. If runs successfullu, will see list of music at the end (will take a few minutes)
+1. Go Back to file folder and navigate to client folder
+1. Run ```ng add @angular/material```
+1. Run ```ng add @oktadev/schematics --issuer=https://dev-529195.okta.com/oauth2/default --clientId=0oa147ll79FgBl9MZ357```
+1. Run ```ng serve -o```
+
+
+
 ## :clapper: Google Fonts Used
 @import url('https://fonts.googleapis.com/css?family=Roboto|Crimson+Text|);
 
